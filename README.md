@@ -1,4 +1,27 @@
-# Project Overview
+# P6 : Feed Reader Testing
+This project purpose is learn javascript test using 'Jasmine'.
+'Jasmine' is Behavior-Driven JavaScript library.
+* https://github.com/jasmine/jasmine
+
+I've written test suite in jasmine/spec/feedreader.js file. 
+
+## Test list
+* RSS feed are defined, URL check, Name check.
+* The menu element exist, change visibility on click menu icon.
+* Initial entries are exist.
+* New feed selection are change to new content from old content.
+
+## How to use
+
+<pre><code>
+1. git clone https://github.com/kys9261/P6_FeedReaderTesting.git
+2. open index.html
+3. The test results appear at the bottom of the page.
+</pre></code>
+
+
+
+## Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
 
